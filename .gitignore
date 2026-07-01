@@ -2,6 +2,9 @@
 bin/
 obj/
 
+# Design documents (never commit)
+*.docx
+
 # Installer output
 installer_output/
 
