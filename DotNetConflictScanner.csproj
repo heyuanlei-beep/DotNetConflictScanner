@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>DotNetConflictScanner</AssemblyName>
+    <RootNamespace>DotNetConflictScanner</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <!-- 单文件发布，依赖机器已安装的 .NET 运行时（framework-dependent） -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <Version>1.2.0</Version>
+    <Description>.NET 依赖冲突智能诊断系统 - 右键集成工具</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+# Build outputs
+bin/
+obj/
+
+# Installer output
+installer_output/
+
+# WorkBuddy project data
+.workbuddy/
+
+# Visual Studio / Rider
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# OS files
+Thumbs.db
+Desktop.ini
